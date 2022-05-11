@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.btn{
+    position: absolute;
+    background-color: gray;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: azure;
+    display: inline-block;
+    border-radius: 15px;
+    transition: 0.8 ease;
+    justify-content: center;
+
+}
+.btn:hover{
+    background-color: blanchedalmond;
+    transform:  scale(1.2);
+}
+
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+    header {
+        background-color: azure;
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 200px ;
+    }
+
+
+
+
+    .logo{
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1.8em;
+    }
+    video{
+        padding-top: 120px;
+        
+       
+    }
+
+   
+   .title{
+       display: flex;
+       justify-content: center;
+       color: black;
+       font-size: 1.8em;
+       font-weight: 600;
+       margin-bottom: 30px;
+   }
+   
+   .content{
+       display: flex;
+       justify-content: center;
+       flex-direction: row;
+       flex-wrap: wrap;
+
+   }
+
+   .card {
+       background-color: beige;
+       width: 21.25em;
+       box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+       border-radius: 20px;
+       padding: 25px;
+       margin: 15px;
+   }
+
+   .card:hover {
+       transform: scale(1.1);
+       transition: 0.7 ease;
+   }
+
+
+   .info h3{
+       color: black;
+       font-size: 1.2em;
+       font-weight: 700;
+       margin: 10px;
+   }
+   body{
+    background-image: url("5103371-848421489.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+
+
+}

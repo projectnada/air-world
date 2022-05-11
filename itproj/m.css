@@ -1,0 +1,134 @@
+span
+{
+  color: brown;
+  font-style: italic;
+  font-size: 40px;
+  
+
+}
+.top{
+    float: right;
+    color: brown;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: brown;
+
+}
+a:hover{
+    color:blueviolet;
+}
+a:active{
+    color:black;
+}
+header{
+    background-color: beige;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    padding: 10px 0 ;
+    align-items: center;
+    margin-top: -30px;
+    
+}
+.head{
+    width: 900px;
+    height:550px;
+    padding-top: 85px;
+}
+h1{
+    width: 50%;
+    margin-left:35%;
+}
+div.head{
+    width: 1000px;
+    margin-left: 200px;
+}
+.login{
+    float: right;
+    position: top;
+    margin-right: 20px;
+    margin-top: 15px;
+    padding-top: 100px;
+}
+.label{
+    font-size: 20px;
+    
+}
+.button{background-color: brown;
+    border:2px;
+    color:white;
+    cursor:pointer;
+    font-size: 23px;
+    float:right;
+    font-style: oblique;
+    
+   
+}
+
+
+h2
+{
+    font-size: 30px;
+    font-family:Courier ;
+    color: brown;
+    
+    text-align: center;
+}
+ul.lists
+{
+    list-style-type: circle;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 2px;
+}
+p{
+    font-size:23px;
+    margin-left: 1%;
+    margin-right: 20%;
+    padding: 1%;
+    line-height: 30px;
+    text-align: left;
+    background-color: beige;
+    
+}
+.intro{
+    text-align: center;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+img{
+    margin-left: 2%;
+}
+h3{
+    font-family: monospace;
+    font-size: 25px;
+    margin:2%;
+}
+.comm{
+    
+    
+    margin-right:25%;
+    margin-left: 25%;
+    width:50%;
+    height:200px;
+
+    
+    
+    
+}
+#js{
+    background-color: brown;
+    border:2px;
+    color:white;
+    cursor:pointer;
+    font-size: 23px;
+    float:left;
+    font-style: oblique;
+}
+#js:hover{
+    background-color: rgb(241, 60, 60);
+}
