@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: #fff;
+}
+body{
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+header{
+    background-color: rgb(100, 245, 124);
+    width: 99%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a{
+    text-decoration: none;
+    color: blue;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 30px;
+}
+.navigation a:hover{
+    color: blueviolet;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: chocolate;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-top: 90px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    background-color: beige;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 20px;
+    padding: 25px;
+    margin: 15px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.7 ease;
+}
+.info h3{
+    color: black;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+img{
+    width: 300px;
+    height:200px ;
+}
+p::selection{
+    color: pink;
+}
+video{
+    padding-top: 120px;
+    width: 100%;
+    height: 100%;
+}
+.ff
+{
+    border:1px solid #fff;
+    width: 100%;
+    height: 300px;
+    margin: 15px 10px;
+    text-align: justify;
+    justify-content: center;
+}
+h1
+{
+    color:black;
+    font-size: large;
+    background: rgb(173, 137, 161);
+    margin: 1px;
+    direction: ltr;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    font-style:normal;
+    font-weight:normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 6px;
+    width: 1260px;
+    height: 25px;
+    border: 3px solid rgb(255, 255, 255);
+}
+h4
+{
+    color:black;
+    font-size:large;
+    background:#f5bfe9;
+    margin: 5px;
+    border: 4px solid #000;
+    direction: ltr;
+    letter-spacing: 2px;
+    text-transform:none;
+    font-style:oblique;
+    font-family:'Times New Roman', Times, serif;
+    padding: 4px; 
+    width: 340px;
+    height: 50px; 
+}
+h6
+{
+    color:black; 
+    font-size:small;
+    direction: ltr;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    background: rgb(253, 159, 121);
+    border:4px solid #000;
+    width:200px;
+    height: 50px;
+    overflow: scroll;
+}
+h2
+{
+    border: 4px solid #000;
+    margin: 1px 2px ;
+    padding: 4px;
+    background-color: rgba(130,255,190,0.5);
+    width: 300px;
+    height: 20px;
+    color: black;
+
+}
+h5
+{
+    font-size: medium;
+    color:black;
+    text-align:center;
+}
+table th td
+{
+    color: #000;
+    background-color: #205f34;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: #000;
+    margin: 1px;
+}
+div.final
+{
+    
+    width:1900px;
+    height: 500px;
+    position: absolute;
+    top: 200px;
+    right: 860px;
+    bottom: 8820px;
+    left:850px;
+}
+textarea[name="comment"]
+{
+    width:600px;
+    height: 190px;
+}
+.input 
+{
+    display:block;
+    position: relative;
+    position: absolute;
+    right: 1200px;
+    
+}
+div.back
+{
+    color:rgb(236, 31, 31);
+    background-color:black;
+    width: 1400px;
+    height: 500px;
+    position: absolute;
+    top:8400px;
+}
+p::first-letter
+{
+    font-size:xx-large;
+    color:rgb(57, 6, 245);
+    font-style: italic;
+}
+.no{
+    position: absolute;
+    top:130px;
+    right:900px;;
+    bottom:9700px;
+    left:10px;
+}
+.buttom
+{
+    background-color: rgb(78, 161, 233);
+    color: #fff;
+    width: 250px;
+    height: 100px;
+    border: #fff;
+}
+h3
+{
+    color:#fff;
+}
+.image
+{
+    float:left;
+    position: absolute;
+    top:8010px;
+    bottom: 3850px;
+}
+.mi{
+    position:absolute;
+    top:8180px;
+    text-align: justify;
+    justify-content: center;
+}

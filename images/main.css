@@ -1,0 +1,199 @@
+body{
+    font-family: poppins;
+    background:url('/images/travel.jpeg'); 
+    background : no-repeat ;
+    -webkit-background-size:cover ;
+    background-position: center center;
+    height:100vh ;
+    }
+    
+    ::selection{
+        color: #000;
+        background: #fff;
+      }
+      nav{
+        position: fixed;
+        background: #1b1b1b;
+        width: 100%;
+        padding: 10px 0;
+        z-index: 12;
+      }
+      nav .menu{
+        max-width: 1250px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+      }
+      .menu .logo a{
+        text-decoration: none;
+        color: rgb(228, 218, 218);
+        font-size: 35px;
+        font-weight: 600;
+      }
+      .menu ul{
+        display: inline-flex;
+      }
+      .menu ul li{
+        list-style: none;
+        margin-left: 7px;
+      }
+      .menu ul li:first-child{
+        margin-left: 0px;
+      }
+      .menu ul li a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 500;
+        padding: 8px 15px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+      }
+      .menu ul li a:hover{
+        background: #fff;
+        color: black;
+      }
+     
+      .center{
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        padding: 0 20px;
+        text-align: center;
+      }
+      .center .title{
+        color: rgb(0, 0, 0);
+        font-size: 55px;
+        font-weight: 600;
+      }
+      .center .sub_title{
+        color: rgb(15, 2, 2);
+        font-size: 52px;
+        font-weight: 600;
+      }
+      .center .btns{
+        margin-top: 20px;
+      }
+      .center .btns button{
+        height: 55px;
+        width: 170px;
+        border-radius: 5px;
+        border: none;
+        margin: 0 10px;
+        border: 2px solid rgb(0, 0, 0);
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0 10px;
+        cursor: pointer;
+        outline: none;
+        transition: all 0.3s ease;
+      }
+      .center .btns button:first-child{
+        color: rgb(7, 2, 2);
+        background: none;
+      }
+      .btns button:first-child:hover{
+        background: white;
+        color: black;
+      }
+      .center .btns button:last-child{
+        background: rgb(231, 226, 226);
+        color: black;
+      }
+    
+    .banner-text{
+         position: absolute;
+         top: 40%;
+         left: 50%;
+         transform:translate(-50%,-50%) ;
+     width: 100%;
+     color: rgb(0, 0, 0);
+    }
+    .banner-text h2{
+    text-align: center;
+    font-size: 60px;
+    margin: 0%;
+    color: rgb(3, 20, 20);
+    text-transform: uppercase;
+    }
+    .box{
+    font-size: 170%;
+    font-weight: bold;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family: century gothic;
+    
+    }
+    .b1{
+        animation:ani1 15s infinite ;
+     
+    }
+    .b2{
+        animation:ani2 15s infinite ;
+     
+    }
+    
+    
+    .b3{
+        animation:ani3 15s infinite ;
+        
+    }
+    
+    .b4{
+        animation:ani4 15s infinite ;
+       
+    }
+    @keyframes ani1{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 0;
+    }
+    
+    }
+    @keyframes ani2{
+        20%{
+            opacity: 0;
+        }
+        30%{
+            opacity: 1;
+        }
+        40%{
+            opacity: 0;
+        }
+        
+        }
+        @keyframes ani3{
+            40%{
+                opacity: 0;
+            }
+            50%{
+                opacity: 1;
+            }
+            60%{
+                opacity: 0;
+            }
+            
+            }
+            @keyframes ani4{
+                60%{
+                    opacity: 0;
+                }
+                70%{
+                    opacity: 1;
+                }
+                80%{
+                    opacity: 0;
+                }
+                
+                }
